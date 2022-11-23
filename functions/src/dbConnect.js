@@ -1,6 +1,6 @@
 import { initializeApp, cert, getApps } from "firebase-admin/app";
-import { getFirestore } from "firebase-admin/firebase";
-import secrets from "./secrets.js";
+import { getFirestore } from "firebase-admin/firestore";
+import secrets from "../secrets.js";
 
 
 export default function dbConnect() {
